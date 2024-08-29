@@ -8,6 +8,8 @@ package:
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/streamai-{{ version }}.tar.gz
   sha256: bccd05b00d0e9aad9497be6497a686b6e544d4aaf76810f26d7762794c616a36
+  patches:
+    - 001-setup.patch
 
 build:
   noarch: python
