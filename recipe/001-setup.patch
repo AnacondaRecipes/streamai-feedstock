@@ -1,5 +1,6 @@
---- setup.py	2024-03-06 05:19:50.000000000 +0100
-+++ setup.py	2024-08-29 16:35:50.000000000 +0200
+diff -u -r -w streamai-0.1.2/setup.py streamai-0.1.2.new/setup.py
+--- streamai-0.1.2/setup.py	2024-03-06 05:19:50.000000000 +0100
++++ streamai-0.1.2.new/setup.py	2024-08-29 16:35:50.000000000 +0200
 @@ -2,8 +2,7 @@
  from setuptools import setup, find_packages
  
